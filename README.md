@@ -10,26 +10,26 @@ This guide will allow you to setup a testing environment, enable you to see prob
 
 ## How to use this project 
 
-###Clone this repo 
+### Clone this repo 
 ```shell
 git clone https://github.com/Spartan1776/hackazon/
 cd hackazon/
 ```
 
-###Configure Docker
+### Configure Docker
 If you haven't already installed docker, you'll need to do so. If you're running Ubuntu or a similar Debian-based distro that uses the Advanced Package Tool (APT, or "apt"), you can convert easyDockerInstall to an executable and run the installation file:
 ```shell
 chmod +700 easyDockerInstall
 ./easyDockerInstall
 ```
 
-###Build and start
+### Build and start
 Once Docker is installed, start the docker image:
 ```shell
 docker-compose up
 ```
 
-###Wait for 10 seconds and contact the server :
+### Wait for 10 seconds and contact the server :
 ```shell
 firefox http://127.0.0.1:80
 
