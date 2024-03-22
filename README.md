@@ -26,7 +26,7 @@ sudo ./easyDockerInstall
 ### Build and start
 Once Docker is installed, start the docker image:
 ```shell
-docker-compose up
+sudo docker-compose up
 ```
 
 ### Wait for 10 seconds and contact the server :
