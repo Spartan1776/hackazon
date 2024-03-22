@@ -12,7 +12,7 @@ This guide will allow you to setup a testing environment, enable you to see prob
 
 Clone this repo 
 ```shell
-git clone https://github.com/Newlode/hackazon/
+git clone https://github.com/Spartan1776/hackazon/
 ```
 
 Build and start 
@@ -33,3 +33,6 @@ chromium http://127.0.0.1:80
 The project is configured by the files 
 - [docker-compose.yml](https://github.com/Newlode/hackazon/blob/master/docker-compose.yml)
 - [config/db.sample.php](https://github.com/Newlode/hackazon/blob/master/docker-compose.yml)
+
+## Special Thanks
+This project is a direct fork (+ 1 edit) from Newlode's OG Hackazon project -- thanks for all the hard work!
