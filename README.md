@@ -20,7 +20,7 @@ cd hackazon/
 If you haven't already installed docker, you'll need to do so. If you're running Ubuntu or a similar Debian-based distro that uses the Advanced Package Tool (APT, or "apt"), you can convert easyDockerInstall to an executable and run the installation file:
 ```shell
 chmod +700 easyDockerInstall
-./easyDockerInstall
+sudo ./easyDockerInstall
 ```
 
 ### Build and start
