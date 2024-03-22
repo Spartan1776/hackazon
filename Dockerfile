@@ -1,5 +1,8 @@
 FROM php:5-apache
 
+# Stretch has been moved to archive.debian.org:
+RUN echo "deb http://archive.debian.org/debian stretch main" > /etc/apt/sources.list
+
 ADD https://github.com/rapid7/hackazon/archive/master.zip /tmp/
 RUN apt update && apt install sendmail unzip -y \
     && cd /tmp/ && unzip master.zip && cp -R hackazon-master/* /var/www/html/ \
