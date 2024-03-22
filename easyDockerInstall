@@ -44,8 +44,9 @@ fi
 echo -e "\n==> Running hello-world container..."
 sudo docker run hello-world
 
-echo -e "\n==> Installing Docker Compose plugin..."
+echo -e "\n==> Installing Docker Compose (and associated plugin)..."
 sudo apt-get install docker-compose-plugin
+sudo apt-get install docker-compose
 
 echo -e "\n==> Testing Docker compose plugin..."
 output=$(docker compose version)
