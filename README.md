@@ -39,8 +39,8 @@ chromium http://127.0.0.1:80
 ## Configure
 
 The project is configured by the files 
-- [docker-compose.yml](https://github.com/Newlode/hackazon/blob/master/docker-compose.yml)
-- [config/db.sample.php](https://github.com/Newlode/hackazon/blob/master/docker-compose.yml)
+- [docker-compose.yml](https://github.com/Spartan1776/hackazon/blob/master/docker-compose.yml)
+- [config/db.sample.php](https://github.com/Spartan1776/hackazon/blob/master/docker-compose.yml)
 
 ## Special Thanks
 This project is a direct fork (+ a couple of edits) from Newlode's OG Hackazon project -- thanks for all the hard work!
